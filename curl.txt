@@ -1,0 +1,20 @@
+This file contains sample request and responses
+
+                                    1. Card validator 
+
+                                    Request 
+
+curl --location 'http://localhost:8080/cardValidator' \
+--header 'Content-Type: application/json' \
+--data '{
+  "number": "4539148803436467"
+}'
+
+                                    Responses
+
+{
+    "valid": true
+}
+
+
+
